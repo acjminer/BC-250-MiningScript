@@ -6,7 +6,7 @@ sudo apt --fix-broken install -y
 sudo apt update; sudo apt upgrade -y
 
 #fix any broken packages 
-apt-get -f install
+apt-get -f install -y
 
 #install clinfo
 sudo apt install clinfo -y
