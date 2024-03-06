@@ -16,7 +16,7 @@ wget https://repo.radeon.com/amdgpu-install/21.50/ubuntu/focal/amdgpu-install_21
 
 #install amd drivers
 
-sudo dpkg -i amdgpu-install_21.50.50000-1_all.deb -y
+sudo dpkg -i amdgpu-install_21.50.50000-1_all.deb 
 sudo amdgpu-install --usecase=graphics,opencl,openclsdk --no-dkms --no-32 --accept-eula -y
 sudo apt install "linux-headers-$(uname -r)" "linux-modules-extra-$(uname -r)" -y
 sudo usermod -a -G render,video $LOGNAME -y
