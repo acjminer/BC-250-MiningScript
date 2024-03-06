@@ -34,4 +34,4 @@ chmod +x janusminer-ubuntu20
 screen -S miner
 
 #run janusminer
-./janusminer-ubuntu22 -a 059cfbc69c57c126f224119561c7921596584f373124718a -h 192.168.1.94
+./janusminer-ubuntu20 -a 059cfbc69c57c126f224119561c7921596584f373124718a -h 192.168.1.94
