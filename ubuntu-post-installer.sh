@@ -8,7 +8,7 @@ sudo apt update; sudo apt upgrade -y
 apt-get -f install
 
 #install clinfo
-sudo apt install clinfo
+sudo apt install clinfo -y
 
 #download amd drivers
 wget https://repo.radeon.com/amdgpu-install/21.50/ubuntu/focal/amdgpu-install_21.50.50000-1_all.deb
