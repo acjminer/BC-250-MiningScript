@@ -1,6 +1,7 @@
 #!/bin/bash
 
-
+#fix Broken install
+sudo apt --fix-broken install
 #update 
 sudo apt update; sudo apt upgrade -y
 
